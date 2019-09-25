@@ -23,6 +23,8 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-tomcat"
     compile "org.springframework.security:spring-security-taglibs"
 
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-config-client"
+
     // Bring in support for legacy OAuth autoconfiguration
     // See https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide#oauth2
     compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springSecurityOAuthAutoconfigVersion"

@@ -30,7 +30,9 @@ dependencies {
     compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springSecurityOAuthAutoconfigVersion"
     compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
-
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    
+    compile "org.springframework.cloud:spring-cloud-starter-bus-amqp"
 
     compile "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.7.0"
     compile "taglibs:standard:1.1.2"
